@@ -1,0 +1,13 @@
+name: epub_translator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.9
+  - jupyterlab=3.2
+  - pip:
+    - beautifulsoup4~=4.11.1
+    - EbookLib~=0.17.1
+    - google-cloud-translate~=3.7.3
+    - lxml~=4.9.0
